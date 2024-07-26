@@ -831,3 +831,74 @@ footer p {
   }
 }
 
+.dev-icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.dev-icon-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+
+.dev-icon-box img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.dev-icon-box p {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (max-width: 68px) {
+  .dev-icon-box {
+    width: 80px;
+  }
+
+  .dev-icon-box img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .dev-icon-box p {
+    font-size: 12px;
+  }
+}
+.dev-icon-box p {
+  margin-top: 5px;
+  font-size: 18px;
+  background-color: var(--c7); /* This is your theme color */
+  color: white; /* This makes the text white */
+  padding: 3px 8px; /* This adds some padding around the text */
+  border-radius: 4px; /* This rounds the corners of the background */
+}
+
+.dev-icon-box img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 8px; /* This adds some space between the icon and the text */
+}
+
+.dev-icon-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.dev-icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* Add these styles to your index.css */
+#experience h3, #experience h4, #education h3, #education h4 {
+  color: white;
+}
