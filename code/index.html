@@ -1,15 +1,243 @@
-<!DOCTYPE html> 
-# This is the main page of the website
-<html lang="en">
-<head> <!This is the head section of the website> 
-    <meta charset="UTF-8"> # This is the character set of the website
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> # This is the viewport of the website
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"> # This is the compatibility of the website
-    <title>Abdurrahman Habeeb's Personal WebPage</title> # This is the title of the website
-    <link rel="stylesheet" href="style.css"> # This is the link to the stylesheet of the website
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/cfd068b820.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;600;700&family=Oleo+Script:wght@400;700&family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>Home | Abdurrahman Habeeb</title>
 </head>
 <body>
-<div id="header">
-    
-</div>
+  <header class="site-head">
+    <div class="nav-wrapper">
+      <div class="inner">
+        <a href="/" class="logo">Abdurrahman Habeeb </a>
+        <nav role="navigation" class="nav">
+          <input type="checkbox" name="hamburger" id="hamburger" style="display: none"> 
+          <label for="hamburger">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 48 48" width="48" height="48" class="hamburger-icon">
+              <title>Menu</title>
+              <circle cx="12" cy="12" r="3"></circle>
+              <circle cx="24" cy="12" r="3"></circle>
+              <circle cx="36" cy="12" r="3"></circle>
+              <circle cx="36" cy="24" r="3"></circle>
+              <circle cx="36" cy="36" r="3"></circle>
+              <circle cx="24" cy="36" r="3"></circle>
+              <circle cx="12" cy="36" r="3"></circle>
+              <circle cx="12" cy="24" r="3"></circle>
+              <rect width="6" x="21" y="21" height="6" rx="3" ry="3"></rect>
+              <rect width="6" x="21" y="21" height="6" rx="3" ry="3"></rect>
+            </svg>
+          </label>
+          <ul>
+            <li><a state="active" href="#home">Home</a><div class="underline"></div></li>
+            <li><a href="#skills">Skills & Tools</a><div class="underline"></div></li>
+            
+            <li><a href="#certifications">Certifications</a><div class="underline"></div></li>
+            <li><a href="#experience">Experience</a><div class="underline"></div></li>
+            <li><a href="#contact">Contact</a><div class="underline"></div></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="[ home ]">
+      <section class="[ hero ]" id="home">
+        <h1 aria-label="Hi, I'm Abdurrahman Habeeb. I'm a tech enthusiast and cloud solutions architect."></h1>
+        <div class="detitle">
+            <h1 aria-label="Hi, I'm Abdurrahman Habeeb. I'm a tech enthusiast and cloud solutions architect.">
+                Hi, I'm Abdurrahman<br> The <span id="changing-text" class="stroke">software engineer</span>
+            </h1>
+            
+            <div class="social-links">
+              
+              <span><a href="https://www.linkedin.com/in/abdurrahmanhabeeb21" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin icons"></i></a></span>
+              <span><a href="mailto:ahabeeb1230@gmail.com" target="_blank" aria-label="Email"><i class="fa-solid fa-envelope icons"></i></a></span>
+            </div>
+          </div>
+          
+          
+        </div>
+        <div class="image"><img src="/assets/your-portrait.jpg" alt="Portrait Image of Abdurrahman Habeeb"></div>
+      </section>
+      <section id="about" class="about-section">
+        <div class="about-content">
+          <div class="about-text">
+            <h2>About Me</h2>
+            <p>Hello! I'm Abdurrahman Habeeb, an ambitious problem solver with a focus on Cloud, Software, and ML/AI. I have an insatiable appetite for learning, coupled with a resolute mindset to embrace new opportunities and technologies. I'm not just looking to further my career; I'm here to make a substantial impact on any organization I join. Feel free to connect with me to explore how my expertise can benefit your organization, or to stay up-to-date with my journey. </p>
+          </div>
+          <div class="about-image">
+            <img src="/assets/about-image.jpg" alt="Abdurrahman Habeeb working on a project">
+          </div>
+        </div>
+      </section>
+    </section>
+      <section id="skills">
+        <h2>Skills and Tools</h2>
+        <h5>My Favorite Tools, Technologies, and languages:</h5>
+        <div class="dev-icon-container">
+            <div class="dev-icon-box"><img src="/assets/python.png" alt="Python"><p>Python</p></div>
+            <div class="dev-icon-box"><img src="/assets/java.png" alt="Java"><p>Java</p></div>
+            <div class="dev-icon-box"><img src="/assets/sql.png" alt="SQL"><p>SQL</p></div>
+            <div class="dev-icon-box"><img src="/assets/aws.png" alt="AWS"><p>AWS</p></div>
+            <div class="dev-icon-box"><img src="/assets/azure.png" alt="Azure"><p>Azure</p></div>
+            <div class="dev-icon-box"><img src="/assets/gcp.png" alt="GCP"><p>GCP</p></div>
+            <div class="dev-icon-box"><img src="/assets/terraform.png" alt="Terraform"><p>Terraform</p></div>
+            <div class="dev-icon-box"><img src="/assets/ansible.png" alt="Ansible"><p>Ansible</p></div>
+            <div class="dev-icon-box"><img src="/assets/docker.png" alt="Docker"><p>Docker</p></div>
+            <div class="dev-icon-box"><img src="/assets/git.png" alt="Git"><p>Git</p></div>
+            <div class="dev-icon-box"><img src="/assets/jenkins.png" alt="Jenkins"><p>Jenkins</p></div>
+            <div class="dev-icon-box"><img src="/assets/linux.png" alt="Linux"><p>Linux</p></div>
+            <div class="dev-icon-box"><img src="/assets/office365.png" alt="Office 365"><p>Office 365</p></div>
+        </div>
+      </section>
+      <section id="certifications">
+        <h2>Certifications</h2>
+        <h5>Active Certifications:</h5>
+        <div class="certifications-container">
+          <span class="certification-box"><img src="/assets/aws_saa.png" alt="AWS Solutions Architect Associate"></span>
+          <span class="certification-box"><img src="/assets/aws_ccp.png" alt="AWS Cloud Practitioner"></span>
+          <span class="certification-box"><img src="/assets/azure_fundamentals.png" alt="Azure Fundamentals"></span>
+          <span class="certification-box"><img src="/assets/aws_cloud_quest.png" alt="AWS Cloud Quest | Cloud Practitioner"></span>
+          <span class="certification-box"><img src="/assets/azure_monitor.png" alt="Deploy and Configure Azure Monitor"></span>
+          <span class="certification-box"><img src="/assets/att_agile.png" alt="AT&T Technology Academy "></span>
+        </div>
+      </section>
+      <section id="experience">
+        <h2>Work Experience</h2>
+        <h5>Timeline of my professional journey:</h5>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Solutions Architect: Cloud & ML</h3>
+              <h4>Crescent Technology, Atlanta, GA (Remote)</h4>
+              <p class="timeline-date">May 2024 – Present</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Software Implementation Consultant</h3>
+              <h4>Manhattan Associates, Atlanta, GA (Hybrid)</h4>
+              <p class="timeline-date">Jan 2024 – May 2024</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Solutions Architect: Cloud (Intern)</h3>
+              <h4>Crescent Technology, Atlanta, GA (Remote)</h4>
+              <p class="timeline-date">Aug 2023 – Dec 2023</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Software Consultant: Cloud Services (Intern)</h3>
+              <h4>Manhattan Associates, Atlanta, GA (Hybrid)</h4>
+              <p class="timeline-date">Jan 2023 – May 2023</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Software Engineer: Cloud Platform (Intern)</h3>
+              <h4>Maximus, McLean, VA (Remote)</h4>
+              <p class="timeline-date">May 2023 – Aug 2023</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="education">
+        <h2>Education</h2>
+        <h5>My academic journey:</h5>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Bachelor of Science in Computer Science</h3>
+              <h4>Georgia State University - College of Arts & Sciences, Atlanta, GA</h4>
+            </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>HeadStarter AI: Fellowship</h3>
+            <p class="timeline-date">August 2024</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>AT&T Technology Academy</h3>
+            <p class="timeline-date">June 2024</p>
+          </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>The Cloud BootCamp</h3>
+              <p class="timeline-date">December 2023</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </section>
+      <section id="download">
+        <h2>Resume</h2>
+        <div class="download-wrapper">
+          <a href="/assets/Abdurrahman_Habeeb_Resume.pdf" download="Abdurrahman_Habeeb_Resume.pdf"><button>Download My Resume</button></a>
+        </div>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <h5>Let's have a chat</h5>
+        <div class="contact-wrapper">
+          <div class="container-form">
+            <p>Send me a quick email!</p>
+            <form id="contact-form" action="index.html" method="post" name="contact-form">
+              <div class="field">
+                <input type="text" name="name" id="name" required="" placeholder=""> <label for="name">Name</label>
+              </div>
+              <div class="field">
+                <input type="text" name="email" id="email" required="" placeholder=""> <label for="email">Email Address</label>
+              </div>
+              <div class="field">
+                <textarea style="height: 200px; resize: none" name="message" id="message" required="" placeholder=""></textarea> <label for="message" style="margin-top: -185px">Message</label>
+              </div><button type="submit" name="button"><span>Send email</span> <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+          </div>
+          <div class="container-socials">
+            <p><strong></strong></p>
+            <h4><strong>Let's chat!</strong></h4>
+        
+            <div class="social-links">
+              <span><a href="https://www.linkedin.com/in/abdurrahmanhabeeb21" target="_blank"><i class="fa-brands fa-linkedin icons"></i></a></span>
+              <span><a href="mailto:ahabeeb1230@gmail.com" target="_blank"><i class="fa-solid fa-envelope icons"></i></a></span>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      </section>
+      <div class="cursor"></div>
+      <div class="cursor-dot"></div>
+    </div>
+  </main>
+  <footer>
+    <div class="wrapper">
+        <p>© 2024 Abdurrahman Habeeb. All rights reserved.</p>
+    </div>
+  </footer>
+  <script type="text/javascript" src="text-flip.js"></script> 
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="textflip.js"></script>
+  
 </body>
+</html>
